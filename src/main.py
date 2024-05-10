@@ -7,5 +7,9 @@ scene = Scene(root,
               height=600)  # висота віджета у пікселях
 scene.pack()
 
+scene.addShip()
+scene.setShipPosition(100, 100)
+scene.update()
+
 
 root.mainloop()
